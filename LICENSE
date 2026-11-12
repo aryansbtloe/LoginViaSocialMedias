@@ -1,0 +1,73 @@
+MIT License
+
+Copyright (c) 2026 Alok Singh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Scope of this license
+
+This MIT License applies only to original work of Alok Singh in this
+repository that does not already carry another copyright notice or license.
+It does not replace, weaken, or relicense any of the following, which keep
+the terms in their own headers:
+
+1. Application sources that carry the header "Copyright (c) 2013 Konstant
+   Info Private Limited. All rights reserved." Those files were created by
+   Alok and are left under that notice:
+
+   - LoginViaSocials.h
+   - LoginViaSocials.m
+   - LoginViaSocialMedias/AppDelegate.h
+   - LoginViaSocialMedias/AppDelegate.m
+   - LoginViaSocialMedias/ViewController.h
+   - LoginViaSocialMedias/ViewController.m
+   - LoginViaSocialMedias/main.m
+
+   The Xcode project organization name is "Konstant Info Private Limited".
+
+2. The Facebook iOS SDK under FaceBook/ and the copy under
+   LoginViaSocialMedias/FaceBook/. Headers are Copyright 2010 or 2012
+   Facebook (FacebookSDK.h says "Copyright 2012") and are licensed under
+   the Apache License, Version 2.0
+   (http://www.apache.org/licenses/LICENSE-2.0). FBOpenGraphAction.h points
+   at http://www.apache.org/xlicenses/LICENSE-2.0.
+
+3. The Google+ iOS SDK under Google Plus/lib (headers GPPDeepLink.h,
+   GPPShare.h, GPPSignIn.h, GPPSignInButton.h, and the static libraries
+   libGooglePlus.a and libGooglePlusUniversal.a), Copyright 2012 Google Inc.,
+   and GPPURLHandler.h, Copyright 2013 Google Inc. Those headers state that
+   use of the SDK is subject to the Google+ Platform Terms of Service:
+   https://developers.google.com/+/terms
+
+4. The sources under Google Plus/OpenSource (Google Toolbox for Mac, the
+   Google APIs Objective-C client, and GTMOAuth2), Copyright Google Inc.,
+   Apache License, Version 2.0, except OpenInChromeController.h and
+   OpenInChromeController.m, which are Copyright 2012 Google Inc. and carry
+   a BSD-style redistribution license (retain the copyright notice, reproduce
+   it in binary distributions, and do not use Google's name to endorse
+   derived products).
+
+5. The Foursquare client under "Four square/":
+
+   - Foursquare2.h and Foursquare2.m: Created by Constantine Fry, 1/7/11.
+     Copyright 2011 Home. All rights reserved.
+   - FSWebLogin.h and FSWebLogin.m: Created by Constantine Fry, 12/20/10.
+     Copyright 2010 Home. All rights reserved.
+   - FSRequester.h, FSRequester.m, FSTargetCallback.h, and
+     FSTargetCallback.m ship with that client and have no copyright header.
